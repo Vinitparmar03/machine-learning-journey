@@ -7,7 +7,7 @@ import pandas as pd
 
 # 2. Importing the dataset
 # Replace the path if you're running on a different platform (e.g., local machine)
-dataset = pd.read_csv('/content/sample_data/50_Startups.csv')
+dataset = pd.read_csv('50_Startups.csv')
 
 # Separating independent variables (X) and dependent variable (y)
 X = dataset.iloc[:, :-1].values  # All rows, all columns except last (features)
