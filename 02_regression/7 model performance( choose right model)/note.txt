@@ -1,0 +1,3 @@
+R-squared (R²) is a statistical measure in regression that indicates how well the model fits the data. The closer the R-squared value is to 1, the better the model explains the variability in the target variable.
+
+I have provided sample data and the code to calculate R-squared. You can use it to determine which regression model best fits the dataset.
