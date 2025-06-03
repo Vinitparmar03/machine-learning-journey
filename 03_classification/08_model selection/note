@@ -1,0 +1,2 @@
+The confusion matrix is used to evaluate the performance of a classification model by showing the correct and incorrect predictions in a tabular form.
+The accuracy score calculates the ratio of correctly predicted observations to the total observations, helping us determine which model performs best on the dataset.
