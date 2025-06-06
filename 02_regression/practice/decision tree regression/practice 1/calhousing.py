@@ -16,7 +16,7 @@ y = dataset.iloc[:, -1].values   # Last column as target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 # Initialize Decision Tree Regressor with a fixed random state for reproducibility
-regressor = DecisionTreeRegressor(random_state=0)
+regressor = DecisionTreeRegressor(nestimator=10,random_state=0)
 
 # Train the regressor on the training data
 regressor.fit(X_train, y_train)
