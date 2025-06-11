@@ -1,0 +1,2 @@
+we use Hierarchical Agglomerative Clustering to cluster the same customer-level data. A dendrogram is first plotted to visually determine the optimal number of clusters by identifying the largest vertical distance between merges. After deciding the number of clusters, the Agglomerative Clustering algorithm is applied using the Ward method, which minimizes variance within clusters. The final clusters are visualized using a scatter plot. Unlike KMeans, hierarchical clustering builds a tree structure and doesn't rely on centroids.
+
