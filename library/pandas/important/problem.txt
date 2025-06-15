@@ -1,0 +1,39 @@
+columns, rows ( you dont know at starting)
+which column store which type of data
+you dont know the missing data
+
+so panda provide the info() method
+provide information
+
+1-> number of rows and columns
+2-> column name
+3-> int64 float64 object
+4-> non null counts
+5-> memory usage of the dataframes
+
+
+2. problems
+select specific coulumn,
+filter rows
+combine multiple conditions
+
+solution
+1-> square matrix
+2 ->  booleans conditions
+
+selecting columns
+1-> a series
+2-> dataframe multiple columns of data
+
+column = df["Column Name"]
+subset = df["Column1", "Column2",....]
+
+filtering rows
+boolean indexing
+
+
+if you want filter the rows based on single conditions
+filtered_Rows = df[df["salary] > 50000]
+
+if you want filter the rows based on multiple conditions
+filtered_Rows = df[df["salary"] > 50000 && df["salary"] < 80000]
